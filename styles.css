@@ -1,0 +1,29 @@
+body,
+td {
+  font: normal 100%/1.5em, "Open Sans";
+  margin: 0;
+  padding: 0;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+/**/
+.navbar-nav {
+  float: right;
+}
+.text-main {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.footer-text {
+  margin-top: 50px;
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  p .fs-1 {
+    margin-top: 40px;
+  }
+}
